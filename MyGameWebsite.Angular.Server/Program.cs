@@ -4,7 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 
-namespace AngularApp1.Server
+namespace MyGameWebsite.Server
 {
     public class Program
     {

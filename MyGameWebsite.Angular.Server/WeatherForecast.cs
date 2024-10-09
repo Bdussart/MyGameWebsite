@@ -1,4 +1,4 @@
-namespace AngularApp1.Server
+namespace MyGameWebsite.Server
 {
     public class WeatherForecast
     {

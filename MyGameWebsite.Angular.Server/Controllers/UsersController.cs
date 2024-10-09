@@ -1,9 +1,9 @@
-﻿using AngularApp1.Server.MockData;
-using AngularApp1.Server.Models;
+﻿using MyGameWebsite.Server.MockData;
+using MyGameWebsite.Server.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AngularApp1.Server.Controllers
+namespace MyGameWebsite.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

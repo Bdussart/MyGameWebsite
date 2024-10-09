@@ -1,5 +1,5 @@
-﻿using AngularApp1.Server;
-using AngularApp1.Server.Models;
+﻿using MyGameWebsite.Server;
+using MyGameWebsite.Server.Models;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;

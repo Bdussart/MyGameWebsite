@@ -1,6 +1,6 @@
-﻿using AngularApp1.Server.Models;
+﻿using MyGameWebsite.Server.Models;
 
-namespace AngularApp1.Server.MockData
+namespace MyGameWebsite.Server.MockData
 {
     public class UserStore
     {

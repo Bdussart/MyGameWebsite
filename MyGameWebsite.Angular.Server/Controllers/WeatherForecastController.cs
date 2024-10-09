@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace AngularApp1.Server.Controllers
+namespace MyGameWebsite.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]
