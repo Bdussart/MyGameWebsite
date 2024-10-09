@@ -1,4 +1,4 @@
-﻿namespace AngularApp1.Server.Models
+﻿namespace MyGameWebsite.Server.Models
 {
     public class User
     {

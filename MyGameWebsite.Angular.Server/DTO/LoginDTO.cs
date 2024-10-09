@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AngularApp1.Server.DTO
+namespace MyGameWebsite.Server.DTO
 {
     public class LoginDTO
     {
