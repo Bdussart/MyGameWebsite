@@ -35,7 +35,7 @@ namespace AngularApp1.Server.Controllers
                 var token = IssueToken(user);
                 return Ok(new { Token = token });
             }
-            return BadRequest("Invalid Request Body");
+            return BadRequest("Invalid Request Body.");
         }
 
         private string IssueToken(User user)
