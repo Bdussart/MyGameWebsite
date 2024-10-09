@@ -1,1 +1,0 @@
-C:\Users\BriceRTS\Documents\Dev\MyGameWebsite\MyGameWebsite\AngularApp1\angularapp1.client\obj\Debug\MyGameWebsite.client.esproj.CoreCompileInputs.cache
