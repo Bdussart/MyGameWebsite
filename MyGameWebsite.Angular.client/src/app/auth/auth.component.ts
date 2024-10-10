@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { throwError } from 'rxjs';
+import { catchError } from 'rxjs/operators';
 
 @Component({
   selector: 'app-auth',
@@ -34,7 +35,7 @@ export class AuthComponent
   
     onSubmit() {
       this.submitted = true;
-  
+      this.error = '';
       // stop here if form is invalid
       if (this.loginForm.invalid) {
         return;
@@ -51,9 +52,9 @@ export class AuthComponent
 
           },
           error: error => {
-            this.error = error.value;
+            this.error = error.message; 
             this.loading = false;
-             throwError(() => this.error);
+            throwError(() => this.error);
           }
         });
     }
