@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { AuthComponent } from './auth/auth.component';
 
 interface WeatherForecast {
   date: string;

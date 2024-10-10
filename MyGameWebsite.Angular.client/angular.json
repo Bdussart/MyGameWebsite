@@ -39,7 +39,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "sourceMap": true
           },
           "configurations": {
             "production": {
@@ -101,7 +102,8 @@
               "src/styles.css"
             ],
             "scripts": [],
-            "karmaConfig": "karma.conf.js"
+            "karmaConfig": "karma.conf.js",
+            "sourceMap": true
           }
         }
       }
